@@ -1,0 +1,64 @@
+﻿@model EntidadDeNegocio.Emprendimiento
+
+@{
+    ViewBag.Title = "Financiar";
+}
+
+<h2>Financiar</h2>
+<h3>Esta Seguro que queres Financiar?</h3>
+<div>
+    <h4>Emprendimiento</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Titulo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Titulo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Costo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Costo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Duracion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Duracion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Puntaje)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Puntaje)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+
+    </dl>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Financiar" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
+

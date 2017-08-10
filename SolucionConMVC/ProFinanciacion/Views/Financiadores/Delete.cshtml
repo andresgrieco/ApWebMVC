@@ -1,0 +1,56 @@
+﻿@model EntidadDeNegocio.Financiador
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Borrar</h2>
+
+<h3>Esta seguro que desea Borrar?</h3>
+<div>
+    <h4>Financiador</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pass)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pass)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreOrg)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreOrg)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Monto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Monto)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Borrar" class="btn btn-default" /> |
+            @Html.ActionLink("Volver a la Lista", "Index")
+        </div>
+    }
+</div>

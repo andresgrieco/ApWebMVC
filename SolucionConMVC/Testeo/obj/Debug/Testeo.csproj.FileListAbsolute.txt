@@ -1,0 +1,14 @@
+C:\Users\alumnoFI\Desktop\solucionFinanciacion\Testeo\bin\Debug\Testeo.exe.config
+C:\Users\alumnoFI\Desktop\solucionFinanciacion\Testeo\bin\Debug\Testeo.exe
+C:\Users\alumnoFI\Desktop\solucionFinanciacion\Testeo\bin\Debug\Testeo.pdb
+C:\Users\alumnoFI\Desktop\solucionFinanciacion\Testeo\bin\Debug\EntityFramework.dll
+C:\Users\alumnoFI\Desktop\solucionFinanciacion\Testeo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\alumnoFI\Desktop\solucionFinanciacion\Testeo\bin\Debug\EntityFramework.xml
+C:\Users\alumnoFI\Desktop\solucionFinanciacion\Testeo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\alumnoFI\Desktop\solucionFinanciacion\Testeo\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\alumnoFI\Desktop\solucionFinanciacion\Testeo\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Users\alumnoFI\Desktop\solucionFinanciacion\Testeo\obj\Debug\Testeo.csprojResolveAssemblyReference.cache
+C:\Users\alumnoFI\Desktop\solucionFinanciacion\Testeo\obj\Debug\Testeo.exe
+C:\Users\alumnoFI\Desktop\solucionFinanciacion\Testeo\obj\Debug\Testeo.pdb
+C:\Users\alumnoFI\Desktop\solucionFinanciacion\Testeo\bin\Debug\EntidadDeNegocio.dll
+C:\Users\alumnoFI\Desktop\solucionFinanciacion\Testeo\bin\Debug\EntidadDeNegocio.pdb

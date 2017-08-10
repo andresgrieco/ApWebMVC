@@ -1,0 +1,11 @@
+C:\Users\Andres\Desktop\solucionFinanciacion\EntidadDeNegocio\bin\Debug\EntidadDeNegocio.dll
+C:\Users\Andres\Desktop\solucionFinanciacion\EntidadDeNegocio\bin\Debug\EntidadDeNegocio.pdb
+C:\Users\Andres\Desktop\solucionFinanciacion\EntidadDeNegocio\bin\Debug\EntityFramework.dll
+C:\Users\Andres\Desktop\solucionFinanciacion\EntidadDeNegocio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Andres\Desktop\solucionFinanciacion\EntidadDeNegocio\bin\Debug\EntityFramework.xml
+C:\Users\Andres\Desktop\solucionFinanciacion\EntidadDeNegocio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Andres\Desktop\solucionFinanciacion\EntidadDeNegocio\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Andres\Desktop\solucionFinanciacion\EntidadDeNegocio\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Andres\Desktop\solucionFinanciacion\EntidadDeNegocio\obj\Debug\EntidadDeNegocio.csprojResolveAssemblyReference.cache
+C:\Users\Andres\Desktop\solucionFinanciacion\EntidadDeNegocio\obj\Debug\EntidadDeNegocio.dll
+C:\Users\Andres\Desktop\solucionFinanciacion\EntidadDeNegocio\obj\Debug\EntidadDeNegocio.pdb

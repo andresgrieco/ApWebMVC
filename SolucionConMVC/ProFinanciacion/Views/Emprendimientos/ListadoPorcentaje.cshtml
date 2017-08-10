@@ -1,0 +1,49 @@
+﻿@model IEnumerable<EntidadDeNegocio.Emprendimiento>
+
+@{
+    ViewBag.Title = "ListadoPorcentaje";
+}
+
+<h2>Listado del 80% de los Emprendimientos ordenados por su Calificacion</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Titulo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Costo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Duracion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Puntaje)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Titulo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Costo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Duracion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Puntaje)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descripcion)
+        </td>
+    </tr>
+}
+
+</table>

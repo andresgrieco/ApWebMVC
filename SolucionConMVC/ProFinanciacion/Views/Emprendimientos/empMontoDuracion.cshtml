@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "empMontoDuracion";
+}
+
+<h2>Se Filtraran los emprendimientos que su costo este entre los montos proporcionados y que su duracion sea menor a la dada.</h2>
+
+<form action="/Emprendimientos/empMontoDuracion" method="post">   
+    <p>Costo MAXIMO</p><input type="number" id="monto1" name="monto1" required/><br>
+    <p>Costo MINIMO</p><input type="number" id="monto1" name="monto2" required/><br>
+    <p>Duracion</p><input type="number" id="monto1" name="duracion" required/><br><br>
+    <input type="submit" value="Filtrar" />
+</form>

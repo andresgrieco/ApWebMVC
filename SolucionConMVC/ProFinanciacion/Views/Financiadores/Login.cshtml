@@ -1,0 +1,20 @@
+﻿@model EntidadDeNegocio.Financiador
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Login</h2>
+
+@using (Html.BeginForm())
+{
+
+    <span>Email: </span>
+    <input type="text" name="email" />
+    <span>Password: </span>
+    <input type="password" name="pass" />
+
+    <input type="submit" name="SingIn" />
+
+}
